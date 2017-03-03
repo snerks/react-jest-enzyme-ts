@@ -1,0 +1,17 @@
+exports[`HelloWorld renders and matches our snapshot 1`] = `
+<div>
+  Person
+  
+  <button
+    className="frenchify"
+    onClick={[Function]}>
+    Frenchify!
+  </button>
+  <br />
+  <button
+    className="remove"
+    onClick={undefined}>
+    Remove Me!
+  </button>
+</div>
+`;
