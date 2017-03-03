@@ -1,0 +1,74 @@
+exports[`HelloWorldList renders and matches our snapshot 1`] = `
+<div
+  className="HelloWorldList">
+  <div
+    className="AddGreeter">
+    <input
+      onChange={[Function]}
+      type="text"
+      value="" />
+      
+    <button
+      onClick={[Function]}>
+      Add
+    </button>
+  </div>
+  <div
+    className="HelloWorld">
+    Hello
+     
+    Jim
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}>
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}>
+      Remove Me!
+    </button>
+  </div>
+  <div
+    className="HelloWorld">
+    Hello
+     
+    Sally
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}>
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}>
+      Remove Me!
+    </button>
+  </div>
+  <div
+    className="HelloWorld">
+    Hello
+     
+    Bender
+    !
+    <br />
+    <button
+      className="frenchify"
+      onClick={[Function]}>
+      Frenchify!
+    </button>
+    <br />
+    <button
+      className="remove"
+      onClick={[Function]}>
+      Remove Me!
+    </button>
+  </div>
+</div>
+`;

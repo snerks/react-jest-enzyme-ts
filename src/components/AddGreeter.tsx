@@ -16,8 +16,13 @@ class AddGreeter extends React.Component<AddGreeterProps, AddGreeterState> {
         this.state = { greetingName: '' };
     }
 
-    handleUpdate(event: React.ChangeEvent<HTMLInputElement>) {
-        this.setState({ greetingName: event.target.value });
+    // handleUpdate(event: React.ChangeEvent<HTMLInputElement>) {
+    //     this.setState({ greetingName: event!.target!.value });
+    // }
+
+    // tslint:disable-next-line:no-any
+    handleUpdate(event: any) {
+        this.setState({ greetingName: event!.target!.value });
     }
 
     addGreeting() {

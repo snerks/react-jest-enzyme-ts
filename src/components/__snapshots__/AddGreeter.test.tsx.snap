@@ -1,0 +1,14 @@
+exports[`AddGreeter renders and matches our snapshot 1`] = `
+<div
+  className="AddGreeter">
+  <input
+    onChange={[Function]}
+    type="text"
+    value="" />
+    
+  <button
+    onClick={[Function]}>
+    Add
+  </button>
+</div>
+`;
