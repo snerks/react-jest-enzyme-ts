@@ -1,7 +1,9 @@
 import * as React from 'react';
 import './App.css';
 
-const logo = require('./logo.svg');
+import HelloWorldList from './components/HelloWorldList';
+
+/*const logo = require('./logo.svg');
 
 class App extends React.Component<null, null> {
   render() {
@@ -17,6 +19,14 @@ class App extends React.Component<null, null> {
       </div>
     );
   }
-}
+}*/
+
+const App = () => {
+  return (
+    <div className="App">
+      <HelloWorldList />
+    </div>
+  );
+};
 
 export default App;
